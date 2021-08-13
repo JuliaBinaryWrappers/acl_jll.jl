@@ -1,81 +1,103 @@
 [[acl]]
 arch = "aarch64"
-git-tree-sha1 = "086f42017e3533632f185c12fca312274cda0a81"
+git-tree-sha1 = "e1c5cba3a4aa121fd6cfe14741202a4458330ddb"
 libc = "glibc"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "7bf7ae493c4901e6cdf266ab1f8797362c2f562c095717c780c6ffde33bbc894"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.aarch64-linux-gnu.tar.gz"
+    sha256 = "b666d31d2b02ecf7f005e922cdc11c959a42af0d44b2eb353c74a33b17a09d46"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.aarch64-linux-gnu.tar.gz"
 [[acl]]
 arch = "aarch64"
-git-tree-sha1 = "cbf5df50ca8cb87c76cbdacb276984bceb018163"
+git-tree-sha1 = "7bd9ee67830736083f3952133c0aeb45bf65607a"
 libc = "musl"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "979c071f866a591e654fd96bdaab3c97deafac77e89ad8361996714d6f5e2214"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.aarch64-linux-musl.tar.gz"
+    sha256 = "84d5243cc33fc08a65e96b074cdc51503248f3ec4446b6178ef51a91edcb846f"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.aarch64-linux-musl.tar.gz"
 [[acl]]
-arch = "armv7l"
-git-tree-sha1 = "6b195060f2d796ce2f5854dc2c1358107d1feaf7"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d5f892389dc60be0647eddc500403b024ad5a37"
 libc = "glibc"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "98a8823f9ae8f40dc745b4f1dc269a798c306684989c5fb02e9109d753229e5e"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "7d10791ce4fd2a4cf7dee0277051a07741f0f8b20711be6a3d80f99c62a19948"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.armv6l-linux-gnueabihf.tar.gz"
 [[acl]]
-arch = "armv7l"
-git-tree-sha1 = "82378f4ac20950b48c5007063d3dc7180a0f2a61"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e399e1031787774f1b74e5d77018e8a989c18447"
 libc = "musl"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "e24729791c68b19450f6d34b67a162f07c981f6bdf9e1853b7dbf47d38da0477"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "32e28fa1686decb3cd1822d8c56f5435edf5c6f13a0b9df7d04dbf129f018971"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.armv6l-linux-musleabihf.tar.gz"
 [[acl]]
-arch = "i686"
-git-tree-sha1 = "d775ccbcb4e98f81e37f4da000ad264ed1615a3f"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6674cb5736f90a3544ba6ffe450e4e66370748ac"
 libc = "glibc"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "035e504386f4031952d307981c567465c5b3f447a7ee15d2502950cc925c58c4"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.i686-linux-gnu.tar.gz"
+    sha256 = "4ee21923bc7ff0f6d4f52d18489f6c9e43e42c1158da43549831963f85376b58"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.armv7l-linux-gnueabihf.tar.gz"
 [[acl]]
-arch = "i686"
-git-tree-sha1 = "681cd5b9992897892d11178b06fca443690136bb"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f3af0167e66ce721ecea2211f9a5831f20f392dd"
 libc = "musl"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "62439f2f9f422cc908c36c23c8161c9aa97ab2c961cf836296a419fc9d4b5643"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.i686-linux-musl.tar.gz"
+    sha256 = "3dec877214c224e8fa6ba64d55270b134aca4662c1fd757bb1e083c7ae237d28"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.armv7l-linux-musleabihf.tar.gz"
+[[acl]]
+arch = "i686"
+git-tree-sha1 = "dd5851a40c5d22541ceb4ba40da4dc494e4e36b7"
+libc = "glibc"
+os = "linux"
+
+    [[acl.download]]
+    sha256 = "6da00c319021af770af50da7926cb79a63ab4918cb6c75ecf1d803287f5fadb1"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.i686-linux-gnu.tar.gz"
+[[acl]]
+arch = "i686"
+git-tree-sha1 = "7f53cc44d3608340578ec6bb9556f4cc08adb3cb"
+libc = "musl"
+os = "linux"
+
+    [[acl.download]]
+    sha256 = "d74aea99947ff8dd202c7a8717c154418bb94726576fc04f5e8f6c43676b6fcb"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.i686-linux-musl.tar.gz"
 [[acl]]
 arch = "powerpc64le"
-git-tree-sha1 = "f259f22981c8d2d598ff6a1fe7ea1c55b76d9ef3"
+git-tree-sha1 = "a4d7dc82c5b86c99f8c277443ba11fbf6884bb44"
 libc = "glibc"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "4b32669afae96f0968b366e3cbafaf2a963fec07799d6749cc05c3751816320b"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3361a249f9da652f56760d1fdf156c538b34cd58f68786808fc1f5e5e55c9a28"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.powerpc64le-linux-gnu.tar.gz"
 [[acl]]
 arch = "x86_64"
-git-tree-sha1 = "d1621b1b201b101835445479415a376571b7e52e"
+git-tree-sha1 = "970123c546e25cf1eb79a7279218b8b120f661d6"
 libc = "glibc"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "6acc59424e9de15282554382b6e7c030e4822439b9f0f7867b6ea9108ecc51e9"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.x86_64-linux-gnu.tar.gz"
+    sha256 = "fa977d666f28e729483b8cee82f7449370a7f5e6d5704134c44f166d9ecf1d6d"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.x86_64-linux-gnu.tar.gz"
 [[acl]]
 arch = "x86_64"
-git-tree-sha1 = "e8bb971de0f4ff734b1af8f314219799f28a0c31"
+git-tree-sha1 = "90ffe836d11f38f4604e499924b997a93d50f694"
 libc = "musl"
 os = "linux"
 
     [[acl.download]]
-    sha256 = "45603a652d51b46001d14760e215de84f2d15aa71e507f3309fd698fb748b1ce"
-    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.2.53+1/acl.v2.2.53.x86_64-linux-musl.tar.gz"
+    sha256 = "56fa8a5c455b36b86df750603fde1df63b986c9358f2a113732f95e3b09e293b"
+    url = "https://github.com/JuliaBinaryWrappers/acl_jll.jl/releases/download/acl-v2.3.1+0/acl.v2.3.1.x86_64-linux-musl.tar.gz"
