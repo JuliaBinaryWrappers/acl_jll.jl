@@ -1,6 +1,6 @@
 name = "acl_jll"
 uuid = "ed5aba05-e74d-5cf7-8b09-107ba3463b8e"
-version = "2.3.3+0"
+version = "2.4.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
